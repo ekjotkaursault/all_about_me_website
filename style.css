@@ -1,0 +1,210 @@
+/*  Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  background: linear-gradient(to right, #fffefc, #f9f9f9);
+  color: #222;
+}
+
+/*  Fixed Top Navigation Bar */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ffca28, #ffd54f);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.7rem;
+  color: #4e342e;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #4e342e;
+  transition: all 0.3s ease;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.nav-links a:hover {
+  background-color: #fff3e0;
+  color: #d84315;
+  transform: scale(1.08);
+}
+
+/*  Hero Section */
+.hero {
+  background: linear-gradient(135deg, #ffe082, #ffd54f);
+  text-align: center;
+  padding: 6rem 1rem 3rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 3.5rem; /* offset for fixed nav */
+}
+
+.hero h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  color: #3e2723;
+}
+
+.hero .highlight {
+  color: #5d4037;
+}
+
+.hero p {
+  color: #333;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* Content Sections */
+main {
+  padding: 3rem 5%;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  padding: 2rem;
+  margin-bottom: 3rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+}
+
+.about-section h2,
+.location-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-family: 'Dancing Script', cursive;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  text-align: justify;
+}
+
+.profile-pic {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.07);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.map-container {
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 1rem;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 2rem;
+}
+
+.gallery img {
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+/*  Footer */
+footer {
+  background: linear-gradient(to right, #ffeb3b, #ffe082);
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+  font-weight: 500;
+}
+
+
+.hobby-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 2rem;
+margin-top: 2rem;
+}
+
+
+.hobby-card {
+background: #ffffffb2;
+border-radius: 16px;
+padding: 1.5rem;
+box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+text-align: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.hobby-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.hobby-card h3 {
+font-family: 'Dancing Script', cursive;
+font-size: 1.6rem;
+margin-bottom: 0.5rem;
+color: #4e342e;
+}
+
+
+.hobby-card p {
+font-size: 0.95rem;
+color: #444;
+}
