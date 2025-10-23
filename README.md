@@ -7,7 +7,7 @@ This project represents who I am — my background, my interests, my culture, an
 
 ## 🌐 Live Site
 To visit my website directly, click the link below:  
-👉 [https://ekjotkaursault.github.io/all_about_me_website/]
+👉 https://ekjotkaursault.github.io/all_about_me_website/ 
 
 *(If it doesn’t open automatically, copy the link above and paste it into your browser’s address bar.)*
 
