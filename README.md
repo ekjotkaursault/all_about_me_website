@@ -1,156 +1,157 @@
-<<<<<<< HEAD
-#  All About Me – Website
+# 🌸 All About Me – Website
 
-Hi, Welcome to my personal website project, proudly created using **HTML**, **CSS**, and hosted for free on **GitHub Pages**.
+Hi! Welcome to my **personal website project**, proudly created using **HTML** and **CSS**, and hosted for free on **GitHub Pages**.  
+This project represents who I am — my background, my interests, my culture, and the things I love most 💕.
 
+---
 
-##  Live Site: copy the link given below and paste it into chrome, press (Enter), you will be taken directly to my (All_About_Me website)
+## 🌐 Live Site
+To visit my website directly, click the link below:  
+👉 [https://ekjotkaursault.github.io/all_about_me_website/]
 
-Explore it here: https://ekjotkaursault.github.io/all_about_me/
+*(If it doesn’t open automatically, copy the link above and paste it into your browser’s address bar.)*
 
-I have also used several 'Emojis' to increase readability and to make website more attractive and beautiful 😊.
+I have also used several ✨ **emojis** ✨ throughout the project to make it more friendly, expressive, and visually appealing 😊.
 
+---
 
-## Project Highlights
+## 🌟 Project Highlights
 
-###  Fonts Used
+### 🎨 Fonts Used
+- **Poppins** – for body content, headings, and overall clean readability.  
+- **Dancing Script** – for highlighting names and headers in a decorative cursive style.
 
-* **Poppins** – for body content, headings, and overall clean readability
-* **Dancing Script** – for highlighting names and headers in a decorative cursive style
+---
 
-###  Color and Style Choices
+### 💛 Color and Style Choices
+**Backgrounds**
+- Light yellow gradient: `linear-gradient(90deg, #ffca28, #ffd54f)` for navigation and header.  
+- Pale peach gradient: `linear-gradient(135deg, #fdfcfb, #e2d1c3)` for culture.html.  
+- Soft pastel tones are used throughout the site to give a peaceful, calm, and welcoming appearance.
 
-* **Backgrounds:**
+**Typography Effects**
+- *Italicized text* (e.g., *Welcome to my personal webpage!*) is used for friendly greetings.  
+- **Bold text** (`<strong>`) highlights key points such as my college, location, or cultural details.
 
-  * Light yellow gradients: `linear-gradient(90deg, #ffca28, #ffd54f)` for nav & header
-  * Pale peach gradients: `linear-gradient(135deg, #fdfcfb, #e2d1c3)` for culture.html
-  * Overall soft tones to give a peaceful, welcoming feel.
+---
 
-* **Typography Effects:**
+## 🧩 Layout and Structure
 
-  * Italics used for welcome messages: `<i>Welcome to my personal webpage!</i>`
-  * Bold tags (`<strong>`) highlight key details such as location, studies, and cultural words.
+### Responsive Design
+The website is fully responsive and designed using **CSS Flexbox** and **Grid Layout**:
+- `.about-content` → flex layout (for image and biography side-by-side)
+- `.hobby-grid` → CSS grid layout for hobbies section
+- `.gallery` → flexible wrap with even spacing for images
 
-### Layout and Structure
+Each content area uses a reusable `.card` class for consistency and alignment.
 
-* Responsive layout using CSS Flexbox and Grid:
+### Interactivity
+- Subtle hover animations on cards and images for smooth transitions.
+- Fixed top navigation bar with hover color changes and highlight effect.
+- Footer designed with matching gradient, shadow, and centered text.
 
-  * `.about-content` uses flex layout for photo + bio.
-  * `.hobby-grid` uses CSS Grid for cards layout.
-  * `.gallery` uses flex wrap and spacing.
+---
 
-* Section-based design with reuse of `.card` class for consistent look.
+## 🖼️ Images and Media
 
-* Hover effects on images and cards for subtle animation.
+I used a mix of my **personal photos** and **web resources** to illustrate my story:
 
-* Clean navigation bar fixed to top with hover animations.
+- `Ekjot_kaur.jpg` → my personal profile photo (rounded & shadowed).  
+- `Golden_Temple.png`, `Baisakhi.png` → cultural and traditional visuals.  
+- `Pizza.png` → represents one of my favorite Canadian food spots 🍕.  
+- Embedded **Google Maps iframe** to show my hometown: *Moga, Punjab* 🗺️.
 
-### Images and Media
+---
 
-* Personal images: I have taken some of the images from my 'google photos' and some are downloaded from 'google'
+## 📁 Folder & File Structure
 
-  * `Ekjot_kaur.jpg`: my profile picture (rounded and shadowed)
-  * `Golden_Temple.png`, `Baisakhi.png`, etc.: showcase my roots
-  * `Pizza.png`: shows personal favorite food spots in Canada
-* Embedded Google Maps iframe to highlight my hometown: **Moga, Punjab**
-
-
-
-## Folder & File Structure  --- This is how, i planned my website.
+Here’s how I organized my project files:
 
 all_about_me/
-├── index.html             # Home Page
-├── hobbies.html           # My Hobbies
-├── culture.html           # Culture & Traditions
-├── style.css              # External CSS for styling
-├── Ekjot_kaur.jpg         # My image
-├── gurduwara.png          # Gurdwara View
-├── street_view.png        # Local street from hometown
-├── Pizza.png              # Food pic from Canada
-├── Golden_Temple.png      # Golden Temple pic
-├── punjabi 4 photo food.png
-├── Baisakhi.png           # Festival photo
-└── README.md              # This file
-``
+├── index.html # Home Page (About + Location)
+├── hobbies.html # My Hobbies Page
+├── culture.html # My Culture & Traditions
+├── contact.html # Contact Page (LinkedIn + Email)
+├── style.css # External CSS file
+├── Ekjot_kaur.jpg # My profile photo
+├── golden_temple.png # Cultural photo
+├── baisakhi.png # Festival photo
+├── pizza.png # Food photo
+├── reading.jpg # Hobbies image
+└── README.md # This documentation file
 
 
-## **Features Implemented in Code**
-
-### HTML Pages
-
-Each page (`index.html`, `hobbies.html`, `culture.html`) includes:
-
-* Shared navigation bar with links to all 3 pages
-* Hero banner with large heading and welcome line
-* Decorative `<span class="highlight">` for emphasized words
-* `<section class="card">` for content areas with consistent design
-
-### CSS Styling Highlights
-
-* `body` uses soft gradient background for calm appearance
-* `.top-nav` is sticky, fully responsive, and styled with a dual yellow gradient
-* `.hero h1` uses Dancing Script at `3.5rem`, stylized for personality
-* Cards (`.card`) use semi-transparent white, with blur & shadow for a glassy effect
-* `.profile-pic` is fully rounded with hover scale and shadow
-* `.gallery img` uses hover zoom + border radius
-* `.hobby-card` uses grid layout with icon headings and styled text
-* Footer is styled to match header with gradient, shadow, and centered text
 
 ---
 
-##  How It Was Built -- The procedure, that i followed.
+## 💻 Features Implemented
 
-1. **Setup GitHub Repository**
+### 🧱 HTML Pages
+Each page (`index.html`, `hobbies.html`, `culture.html`, `contact.html`) includes:
+- Shared top navigation bar.
+- Hero section with page-specific headings.
+- Highlighted keywords using `<span class="highlight">`.
+- Well-structured sections using `<section>` and `<article>` tags.
 
-   * Created `all_about_me` repo
-   * Uploaded all `.html`, `.css`, and image files manually via GitHub
-
-2. **Designed Each Page**
-
-   * `index.html` as the homepage (About + Location)
-   * `hobbies.html` for interest cards
-   * `culture.html` for traditions + image gallery
-
-3. **Style and Polish**
-
-   * Used Google Fonts for visual appeal
-   * Applied CSS transitions and shadows for interactivity
-   * Ensured mobile-friendliness with responsive layout
-
-4. **Deploy via GitHub Pages**
-
-   * Opened `Settings > Pages`
-   * Set build from: `main branch → /(root)`
-   * GitHub generated live URL
+### 🎨 CSS Styling Highlights
+- `body` uses a soft gradient background for an inviting aesthetic.  
+- `.top-nav` is sticky and responsive with dual color gradients.  
+- `.hero h1` styled using Dancing Script for a graceful headline.  
+- `.card` components use semi-transparent backgrounds with shadows for a **glassy effect**.  
+- `.profile-pic` rounded with hover scaling and smooth transitions.  
+- `.gallery img` zooms slightly on hover with rounded corners.  
+- `.hobby-card` uses grid-based layout with emojis for each activity.
 
 ---
 
-##  What I Learned
+## 🛠️ Development Process
 
-* Linking external fonts using Google Fonts
-* HTML semantics: `section`, `figure`, `figcaption`, `iframe`
-* Creating navigation bars and internal links
-* Using flex and grid layouts
-* Image optimization and hover effects
-* Hosting websites using GitHub Pages
+### Step 1: Setup GitHub Repository
+- Created a new repository: **all_about_me_website**
+- Initialized with README and connected local files via Git
+
+### Step 2: Designed and Developed Each Page
+- `index.html` → Introduction + location + map  
+- `hobbies.html` → Music, reading, and personal relaxation hobbies  
+- `culture.html` → Traditions, roots, and festivals  
+- `contact.html` → Email, LinkedIn links, and contact message form  
+
+### Step 3: Styling and Polish
+- Implemented **Google Fonts**
+- Used **CSS transitions, box-shadows, and gradients**
+- Ensured **mobile-friendliness** for smaller screens
+
+### Step 4: Deployment
+- Deployed via **GitHub Pages** (from `main` branch)
+- Generated live public URL for access
 
 ---
 
-##  About the Creator
+## 📘 What I Learned
 
-Hi, I’m **Ekjot Kaur**, a student of Computer Programming at **Sault College (Toronto Campus)**. This was my personal website built entirely by me with love and passion 🧡
-
-*  LinkedIn: [linkedin.com/in/ekjotkaur-tech](https://linkedin.com/in/ekjotkaur-tech)
-*  GitHub: [github.com/ekjotkaursault](https://github.com/ekjotkaursault)
+- Linking external fonts via Google Fonts  
+- Using semantic HTML elements (`section`, `figure`, `iframe`)  
+- Creating navigation bars and internal hyperlinks  
+- Designing layouts with Flexbox and CSS Grid  
+- Adding interactivity with hover and transition effects  
+- Hosting static sites using GitHub Pages  
 
 ---
 
-##  Final Thoughts
+## 👩‍💻 About the Creator
 
-> "This project is not just code — it’s a part of my story, proudly shared online."
+Hi! I’m **Ekjot Kaur**, a *Computer Programming* student at **Sault College, Toronto Campus** 🇨🇦.  
+This project was built entirely by me — combining creativity, design, and code. It represents my personality, my culture, and my journey in learning web development. 💖  
 
-Thanks for visiting -------------------------
-=======
-# all_about_me_website
-This is my "all_about_me_website". In this website, I have included everything about me.
->>>>>>> 0f36c5cfce59f36521b84e231844cd6992228634
+🔗 **LinkedIn:** [linkedin.com/in/ekjotkaur-tech](https://linkedin.com/in/ekjotkaur-tech)  
+💻 **GitHub:** [github.com/ekjotkaursault](https://github.com/ekjotkaursault)
+
+---
+
+## 💬 Final Thoughts
+
+> “This project is not just code — it’s a reflection of who I am.  
+> Every line, every color, every emoji tells a little part of my story.” 🌼  
+
+Thanks for visiting and exploring my **All About Me Website**! 💕  
+— *Ekjot Kaur*
