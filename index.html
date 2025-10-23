@@ -7,23 +7,24 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Dancing+Script&display=swap" rel="stylesheet">
-
-  <!--  Stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!--  TOP NAVIGATION -->
+  <!-- TOP NAVIGATION -->
   <nav class="top-nav">
-    <div class="logo">🌼 Ekjot Kaur</div>
+    <div class="logo">🌼Ekjot Kaur</div>
     <div class="nav-links">
-      <a href="index.html">Home</a>
+      <a href="index.html" class="active">Home</a>
       <a href="hobbies.html">Hobbies</a>
       <a href="culture.html">Culture</a>
+       <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+      
     </div>
   </nav>
 
-  <!--  HEADER SECTION -->
+  <!-- HERO -->
   <header class="hero">
     <div class="hero-text">
       <h1>Hi, I'm <span class="highlight">Ekjot Kaur</span></h1>
@@ -33,55 +34,106 @@
 
   <!-- MAIN CONTENT -->
   <main>
-    <!-- About Me -->
-    <section class="about-section card">
-      <h2>About Me 🌟</h2>
-      <div class="about-content">
-        <img src="Ekjot_kaur.jpg" alt="My photo" class="profile-pic" />
-        <p>
-          I am a <strong>Computer Programming</strong> student at <strong>Sault College, Toronto Campus</strong>.
-          <br>I love technology, coding, and creating things that make life easier! ✨  
-          <br> My passion lies in building interactive web apps and continuously learning
-          new tools to bring creative ideas to life. 💻🌸
-        </p>
-      </div>
-    </section>
+   
 
-    <!-- Location -->
-    <section class="location-section card">
-      <h2>📍 Where I'm From</h2>
+<!-- ABOUT ME SECTION -->
+<section class="about-section">
+  <h2>About Me 🌼</h2>
+  <div class="about-content">
+    <img src="Ekjot_kaur.jpg" alt="My photo" class="profile-pic" />
+    <div class="about-text">
       <p>
-        I was born in <strong>Moga, Punjab</strong> – a place full of culture, warmth, and
-        flavourful food! It’s known for its kind people, music, and delicious parathas. 🫶
+        I am a <strong>Computer Programming</strong> student at 
+        <strong>Sault College, Toronto Campus.</strong> 🎓  
+      </p>
+      <p>
+        I love technology, coding, and creating things that make life easier! 
+        <span class="sparkle">✨</span>
+      </p>
+      <p>
+        My passion lies in building interactive web apps and continuously learning 
+        new tools to bring creative ideas to life. 💻🌸
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+
+    
+<!-- 📍 Location Section -->
+<section class="location-section card">
+  <h2>📍 Where I'm From</h2>
+  <p>
+    I was born in <strong>Moga, Punjab</strong> – a place full of culture, warmth, and
+    flavourful food! It’s known for its kind people, music, and delicious parathas. 🫶
+  </p>
+
+  <!-- Google Map -->
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54820.81482526684!2d75.14672840272169!3d30.822233032248196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a08620d7489c9%3A0x17a3d439cd1d10ad!2sMoga%2C%20Punjab%2C%20India!5e0!3m2!1sen!2sca!4v1760555578802!5m2!1sen!2sca"
+      width="100%" height="350" style="border:0;" allowfullscreen loading="lazy"></iframe>
+  </div>
+
+  <!-- 🌸 Gallery -->
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <a href="https://www.google.com/search?q=Gurdwara+Sahib+Moga+Punjab" target="_blank">
+        <img src="gurduwara.png" alt="Gurdwara Sahib">
+      </a>
+      <p>Gurudwara Sahib 🛕</p>
+    </div>
+
+    <div class="gallery-item">
+      <a href="https://www.google.com/maps/place/Moga+Punjab" target="_blank">
+        <img src="street_view.png" alt="Old Market Street">
+      </a>
+      <p>Old Market Street 🛍️</p>
+    </div>
+
+    <div class="gallery-item">
+      <a href='https://maps.app.goo.gl/arqkLL4oR2W17qGu8' target="_blank">
+        <img src="Pizza.png" alt="Bolton Pizza">
+      </a>
+      <p>Bolton Pizza 🍕</p>
+    </div>
+  </div>
+
+</section>
+
+
+
+<section class="card education-section">
+  <div class="edu-content">
+    <div class="edu-text">
+      <h2>🎓 My Education</h2>
+      <p>
+        I’m currently pursuing a <strong>Computer Programming Diploma</strong> at <strong>Sault College, Ontario</strong>.  
+        This journey is shaping my future in software development and creative problem-solving.
+      </p>
+      <p>
+        Through this program, I’ve learned <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Java</strong>, and <strong>Database Management</strong> — and built many exciting projects like this website! 🧑‍💻🌐
       </p>
 
-      <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54820.81482526684!2d75.14672840272169!3d30.822233032248196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a08620d7489c9%3A0x17a3d439cd1d10ad!2sMoga%2C%20Punjab%2C%20India!5e0!3m2!1sen!2sca!4v1760555578802!5m2!1sen!2sca"
-          width="100%" height="350" style="border:0;" allowfullscreen loading="lazy"></iframe>
+      <div class="education-timeline">
+        <ul>
+          <li><strong>2024 – Present:</strong> Diploma in Computer Programming, Sault College 🇨🇦</li>
+          <li><strong>2021 – 2023:</strong> High School Diploma (GED Equivalent)</li>
+        </ul>
       </div>
-
-
-<div class="gallery">
-  <figure>
-    <img src="gurduwara.png" alt="Gurduwara View" />
-    <figcaption>Gurdwara Sahib 🛕</figcaption>
-  </figure>
-  <figure>
-    <img src="street_view.png" alt="Street View" />
-    <figcaption>Old Market Street 🛍️</figcaption>
-  </figure>
-  <figure>
-    <img src="Pizza.png" alt="Bolton Pizza" />
-    <figcaption>Bolton Pizza 🍕</figcaption>
-  </figure>
-</div>
+    </div>
+    <div class="edu-image">
+      <img src="sault college _ building.png" alt="Sault College" />
+    </div>
+  </div>
+</section>
 
 
 
-    </section>
   </main>
 
-  <!--  FOOTER -->
+  <!-- FOOTER -->
   <footer>
     <p>&copy; 2025 Ekjot Kaur | Made with 💛 and ☕</p>
   </footer>

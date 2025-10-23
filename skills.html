@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Skills - Ekjot Kaur</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="skills-page">
+  <!-- Navigation -->
+  <nav class="top-nav">
+    <div class="logo">🌼 Ekjot Kaur</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="culture.html">Culture</a>
+      <a href="skills.html" class="active">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-text">
+      <h1>💻 My Skills</h1>
+      <p>Growing every day, one skill at a time 🌱</p>
+    </div>
+  </header>
+
+  <!-- Skills Intro -->
+  <section class="skills-intro fade-in">
+    <p>
+      Over time, I’ve gained hands-on experience with front-end, back-end, and database technologies.
+      I love exploring new tools and frameworks that help me build creative and functional applications.
+    </p>
+  </section>
+
+  <!-- Skills Cards -->
+  <section class="skills-container fade-in">
+    <div class="skill-card" onclick="openModal('frontendModal')">
+      <img src="https://cdn-icons-png.flaticon.com/512/2721/2721299.png" alt="Frontend" />
+      <h3>Frontend Development</h3>
+      <p>HTML5, CSS3, JavaScript, React — creating beautiful, responsive, and interactive web pages.</p>
+    </div>
+
+    <div class="skill-card" onclick="openModal('backendModal')">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="Backend" />
+      <h3>Backend Development</h3>
+      <p>Node.js, Express, and MongoDB — building powerful APIs and data-driven applications using the MERN stack.</p>
+    </div>
+
+    <div class="skill-card" onclick="openModal('toolsModal')">
+      <img src="https://cdn-icons-png.flaticon.com/512/3176/3176366.png" alt="Tools" />
+      <h3>Tools & Technologies</h3>
+      <p>GitHub, VS Code, Figma, XAMPP, MySQL Workbench — tools that power my projects and creativity.</p>
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <div id="frontendModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('frontendModal')">&times;</span>
+      <h2>🎨 Frontend Development</h2>
+      <p>I specialize in building visually appealing and accessible interfaces using HTML5, CSS3, and JavaScript.
+      I also have experience in React, Bootstrap, and responsive web design to ensure seamless user experiences.</p>
+    </div>
+  </div>
+
+  <div id="backendModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('backendModal')">&times;</span>
+      <h2>⚙️ Backend Development</h2>
+      <p>My backend work involves Node.js, Express, and MongoDB. I design RESTful APIs, manage databases,
+      and ensure efficient data flow using the MERN stack. I also focus on authentication, error handling,
+      and secure coding practices.</p>
+    </div>
+  </div>
+
+  <div id="toolsModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('toolsModal')">&times;</span>
+      <h2>🧰 Tools & Technologies</h2>
+      <p>I use tools like Git & GitHub for version control, Visual Studio Code for development,
+      and Figma for UI/UX design. XAMPP and MySQL Workbench help me manage databases and test dynamic applications locally.</p>
+    </div>
+  </div>
+
+  <!-- Quote -->
+  <blockquote class="skills-quote fade-in">
+    “Every skill you learn doubles your odds of success.” – Scott Adams
+  </blockquote>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ekjot Kaur | Made with 💜 and ☕</p>
+  </footer>
+
+  <!-- Script for Modal -->
+  <script>
+    function openModal(id) {
+      document.getElementById(id).style.display = "flex";
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).style.display = "none";
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+      const modals = document.querySelectorAll(".modal");
+      modals.forEach(m => {
+        if (event.target === m) m.style.display = "none";
+      });
+    };
+  </script>
+</body>
+</html>

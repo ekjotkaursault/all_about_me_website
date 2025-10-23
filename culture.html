@@ -6,123 +6,69 @@
   <title>My Culture & Traditions</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Dancing+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
-      color: #222;
-    }
-
-    nav.top-nav {
-      background-color: #fff3cd;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    }
-
-    .top-nav .logo {
-      font-family: 'Dancing Script', cursive;
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: #a0522d;
-    }
-
-    .top-nav .nav-links a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-
-    .culture-card {
-      background-color: #fff;
-      border-radius: 12px;
-      padding: 2rem;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease;
-    }
-
-    .culture-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .culture-card h1 {
-      font-family: 'Dancing Script', cursive;
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .culture-card p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-    }
-
-    .gallery {
-      margin-top: 1.5rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .gallery img {
-      width: 100%;
-      max-width: 280px;
-      border-radius: 10px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease-in-out;
-    }
-
-    .gallery img:hover {
-      transform: scale(1.03);
-    }
-
-    footer {
-      background-color: #fff3cd;
-      padding: 1rem;
-      text-align: center;
-      margin-top: 2rem;
-      font-weight: 500;
-    }
-  </style>
 </head>
 
 <body>
+  <!-- 🌸 NAVIGATION -->
   <nav class="top-nav">
     <div class="logo">🌸 Ekjot Kaur</div>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="hobbies.html">Hobbies</a>
-      <a href="culture.html">Culture</a>
+      <a href="culture.html" class="active">Culture</a>
+       <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+     
     </div>
   </nav>
 
+  <!-- 🌼 MAIN CONTENT -->
   <main>
-    <div class="culture-card">
+    <section class="card">
       <h1>Proud to be Punjabi 🇮🇳</h1>
       <p>
-        Punjab is full of joy, traditions, and vibrant colours! We celebrate festivals like <strong>Lohri</strong> and <strong>Baisakhi</strong> with family and friends. <br>
-        Wearing traditional clothes, dancing to <strong>Bhangra</strong> beats, and preparing special dishes like <strong>aloo paratha</strong> and <strong>lassi</strong> make every moment special. 💃🫓🥛<br><br>
+        Punjab is full of joy, traditions, and vibrant colours! We celebrate festivals like 
+        <a href="https://en.wikipedia.org/wiki/Lohri" target="_blank"><strong>Lohri</strong></a> and 
+        <a href="https://en.wikipedia.org/wiki/Vaisakhi" target="_blank"><strong>Baisakhi</strong></a> 
+        with family and friends.  
+        Wearing traditional clothes, dancing to <a href="https://en.wikipedia.org/wiki/Bhangra_(dance)" target="_blank"><strong>Bhangra</strong></a> beats, 
+        and preparing dishes like <a href="https://en.wikipedia.org/wiki/Paratha" target="_blank"><strong>aloo paratha</strong></a> 
+        and <a href="https://en.wikipedia.org/wiki/Lassi" target="_blank"><strong>lassi</strong></a> make every moment special. 💃🫓🥛  
         Family love, warm hearts, and strong culture define who I am and where I come from. ❤️
       </p>
+
+      <!-- 🖼️ GALLERY -->
       <div class="gallery">
-        <img src="Golden_Temple.png" alt="Gurdwara" />
-        <img src="punjabi 4 photo food.png" alt="Punjabi Street" />
-        <img src="Baisakhi.png" alt="Punjabi Food" />
+        <!-- 🕌 Golden Temple -->
+        <figure>
+          <a href="https://en.wikipedia.org/wiki/Golden_Temple" target="_blank">
+            <img src="Golden_Temple.png" alt="Golden Temple" />
+          </a>
+          <figcaption>Golden Temple </figcaption>
+        </figure>
+
+        <!-- 🍛 Punjabi Food -->
+        <figure>
+          <a href="https://en.wikipedia.org/wiki/Punjabi_cuisine" target="_blank">
+            <img src="punjabi 4 photo food.png" alt="Punjabi Food" />
+          </a>
+          <figcaption>Punjabi Food </figcaption>
+        </figure>
+
+        <!-- 💃 Vaisakhi -->
+        <figure>
+          <a href="https://en.wikipedia.org/wiki/Baisakhi" target="_blank">
+            <img src="Baisakhi.png" alt="Vaisakhi Festival" />
+          </a>
+          <figcaption>Vaisakhi </figcaption>
+        </figure>
       </div>
-    </div>
+    </section>
   </main>
 
+  <!-- 🌸 FOOTER -->
   <footer>
     &copy; 2025 Ekjot Kaur | Made with 💛 and chai ☕
   </footer>
 </body>
-</html>
+</html>       
