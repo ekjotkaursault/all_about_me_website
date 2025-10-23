@@ -638,7 +638,7 @@ button:hover {
 }
 
 .reading-photo {
-  width: 350px;
+  width: 150px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -1320,6 +1320,54 @@ footer {
 
 
 
+/* 🌸 Favourite Books Section */
+.favorite-books {
+  background: #fffdfd;
+  border-radius: 20px;
+  padding: 25px;
+  margin-top: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.favorite-books:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.favorite-books h3 {
+  color: #b84d9a;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.favorite-books p {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.favorite-books ul {
+  list-style: none;
+  padding: 0;
+}
+
+.favorite-books li {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.favorite-books a {
+  color: #3a3a3a;
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.favorite-books a:hover {
+  color: #b86bff;
+  text-shadow: 0 0 5px rgba(184, 107, 255, 0.6);
+  text-decoration: underline;
+}
 
 
 

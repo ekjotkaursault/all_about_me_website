@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #  All About Me – Website
 
 Hi, Welcome to my personal website project, proudly created using **HTML**, **CSS**, and hosted for free on **GitHub Pages**.
@@ -149,3 +150,7 @@ Hi, I’m **Ekjot Kaur**, a student of Computer Programming at **Sault College (
 > "This project is not just code — it’s a part of my story, proudly shared online."
 
 Thanks for visiting -------------------------
+=======
+# all_about_me_website
+This is my "all_about_me_website". In this website, I have included everything about me.
+>>>>>>> 0f36c5cfce59f36521b84e231844cd6992228634
